@@ -38,6 +38,20 @@ int List::getlength() const
     return size;
 }
 
+List::ListNode *List::find(int index) const
+{
+   if ( (index < 1) || (index > getLength()) )
+      return NULL;
+
+   else
+   {
+      ListNode *cur = head;
+      for (int skip = 1; skip < index; ++skip)
+         cur = cur->next  ;
+      return cur;
+   }
+}
+
 void List::Insert (int data , char item)
 {
     int newlength= getlength()+1;
@@ -57,7 +71,7 @@ void List::Insert (int data , char item)
         }
         else
         {
-            Node *prev=(data-1);
+            Node *prev=find(data-1);
             newPtr->next= prev->next;
             prev->next=newPtr;
         }
@@ -78,7 +92,7 @@ void List::Delete(int data)
         head=head->next;
     }
     else{
-        Node *prev=(data-1);
+        Node *prev=find(data-1);
         cur= prev->next;
         prev->next=cur->next;
     }
