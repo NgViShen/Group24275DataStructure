@@ -38,7 +38,7 @@ int List::getlength() const
     return size;
 }
 
-List::ListNode *List::find(int index) const
+List::Node *List::find(int index) const
 {
    if ( (index < 1) || (index > getLength()) )
       return NULL;
