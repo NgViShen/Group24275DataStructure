@@ -13,8 +13,10 @@
          bool isEmpty() const;
          int getlength() const;
          void Insert(int data,char item);
-         void Delete(int data);
-
+         void remove(int data);
+         void remove(int data, string &subtitle);
+         void remove(string subtitle);
+         string retrieve(int data);
      private:
          struct Node
          {
@@ -25,6 +27,7 @@
          };
          int size;
          Node *head;
+         List *find(int index) const;
   };
 
   bool List::isEmpty() const
@@ -77,7 +80,7 @@
       }
   }
 
-  void List::Delete(int data)
+  void List::remove(int data)
   {
       Node *cur;
       Node *prev;
@@ -112,3 +115,19 @@
 
 
   }
+
+ void List::remove(int data, string & subtitle){
+    if (data==0){
+       cout<<"There's nothing here!";
+    }
+    else{
+       Node *prev=find(data-1);
+       cur=prev->next;
+       prev->next=cur->next;
+    }
+    cur->next=NULL;
+    delete cur;
+    cur=NULL;
+ }
+    }
+ }
