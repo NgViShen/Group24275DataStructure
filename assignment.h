@@ -14,6 +14,7 @@ class List
        int getlength() const;
        void Insert(int data,char item);
        void Delete(int data);
+       void remove(int data);
 
    private:
        struct Node
@@ -102,3 +103,30 @@ void List::Delete(int data)
    }
 }
 
+void List::remove()
+{
+   Node *cur;
+   Node *prev;
+   if (data==0){
+      cout<<"There's nothing here!";
+   }
+   else {
+      if (data==1){
+         cur=head;
+         head=head->next;
+      }
+void List::remove(int data){
+   if (data==0){
+      cout<<"There's nothing here!";
+   }
+   else{
+      Node *prev=find(data-1);
+      cur=prev->next;
+      prev->next=cur->next;
+   }
+   cur->next=NULL;
+   delete cur;
+   cur=NULL;
+}
+   }
+}
