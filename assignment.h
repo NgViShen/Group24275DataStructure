@@ -1,132 +1,114 @@
 #include <iostream>    // Only for displaying copy constructor
-#include <fstream>     // for file I/O
-#include <cstddef>     // for NULL
-#include <new>         // for bad_alloc
-#include <string>
-//#include "ListP.h"     // header file
+  #include <fstream>     // for file I/O
+  #include <cstddef>     // for NULL
+  #include <new>         // for bad_alloc
+  #include <string>
+  //#include "ListP.h"     // header file
 
-using namespace std;
+  using namespace std;
 
-class List
-{
-   public:
-       bool isEmpty() const;
-       int getlength() const;
-       void Insert(int data,char item);
-       void Delete(int data);
-       void remove(int data);
+  class List
+  {
+     public:
+         bool isEmpty() const;
+         int getlength() const;
+         void Insert(int data,char item);
+         void Delete(int data);
 
-   private:
-       struct Node
-       {
+     private:
+         struct Node
+         {
 
-           Node *item;
-           Node *next;
+             Node *item;
+             Node *next;
 
-       };
-       int size;
-       Node *head;
-}
-;
+         };
+         int size;
+         Node *head;
+  };
 
-bool List::isEmpty() const
-{
-    return size==0;
-}
+  bool List::isEmpty() const
+  {
+      return size==0;
+  }
 
-int List::getlength() const
-{
-    return size;
-}
+  int List::getlength() const
+  {
+      return size;
+  }
 
-List::Node *List::find(int index) const
-{
-   if ( (index < 1) || (index > getLength()) )
-      return NULL;
+  List::Node *List::find(int index) const
+  {
+     if ( (index < 1) || (index > getLength()) )
+        return NULL;
 
-   else
-   {
-      ListNode *cur = head;
-      for (int skip = 1; skip < index; ++skip)
-         cur = cur->next  ;
-      return cur;
-   }
-}
+     else
+     {
+        ListNode *cur = head;
+        for (int skip = 1; skip < index; ++skip)
+           cur = cur->next  ;
+        return cur;
+     }
+  }
 
-void List::Insert (int data , char item)
-{
-    int newlength= getlength()+1;
+  void List::Insert (int data , char item)
+  {
+      int newlength= getlength()+1;
 
-    if(((data<1)||(data>newlength))){
-        return;
-    }
-    else{
-        Node *newPtr= new Node;
-        Node *newItem=new Node;
-        newPtr->item=newItem;
-        size= newlength;
-
-        if(data==1){
-            newPtr->next=head;
-            head=newPtr;
-        }
-        else
-        {
-            Node *prev=find(data-1);
-            newPtr->next= prev->next;
-            prev->next=newPtr;
-        }
-    }
-}
-
-void List::Delete(int data)
-{
-    Node *cur;
-    Node *prev;
-   if (((data<1)||(data>getlength()))){
-    return;
-   }
-   else{
-
-    if (data==1){
-        cur=head;
-        head=head->next;
-    }
-    else{
-        Node *prev=find(data-1);
-        cur= prev->next;
-        prev->next=cur->next;
-    }
-    cur->next=NULL;
-    delete cur;
-    cur=NULL;
-   }
-}
-
-void List::remove()
-{
-   Node *cur;
-   Node *prev;
-   if (data==0){
-      cout<<"There's nothing here!";
-   }
-   else {
-      if (data==1){
-         cur=head;
-         head=head->next;
+      if(((data<1)||(data>newlength))){
+          return;
       }
-void List::remove(int data){
-   if (data==0){
-      cout<<"There's nothing here!";
-   }
-   else{
-      Node *prev=find(data-1);
-      cur=prev->next;
-      prev->next=cur->next;
-   }
-   cur->next=NULL;
-   delete cur;
-   cur=NULL;
-}
-   }
-}
+      else{
+          Node *newPtr= new Node;
+          Node *newItem=new Node;
+          newPtr->item=newItem;
+          size= newlength;
+
+          if(data==1){
+              newPtr->next=head;
+              head=newPtr;
+          }
+          else
+          {
+              Node *prev=find(data-1);
+              newPtr->next= prev->next;
+              prev->next=newPtr;
+          }
+      }
+  }
+
+  void List::Delete(int data)
+  {
+      Node *cur;
+      Node *prev;
+     if (((data<1)||(data>getlength()))){
+      return;
+     }
+     else{
+
+      if (data==1){
+          cur=head;
+          head=head->next;
+      }
+      else{
+          Node *prev=find(data-1);
+          cur= prev->next;
+          prev->next=cur->next;
+      }
+      cur->next=NULL;
+      delete cur;
+      cur=NULL;
+     }
+  }
+
+  string List::Retrieve(int data)
+  {
+      Node *temp;
+      if ((data<1) || (data>getlength()))
+        return "Invalid Record Number !";
+      else
+        temp = find(data-1);
+      return temp->item;
+
+
+  }
