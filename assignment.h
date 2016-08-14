@@ -131,3 +131,34 @@
  }
     }
  }
+void List::remove(string subtitle)
+ {
+      ListNode *cur;
+      --size;
+      if (isEmpty())
+      {
+          cout<<""Empty code"<<endl;
+          return;
+      }
+      else if (index == 1)
+      {
+         cur = head;
+         head = head->next;
+         head-> prev = NULL;
+         delete cur;
+         cur = NULL;
+      }
+     else if (index-1==getLength())
+      {
+          ListNode * cur = find(index);
+          tail = cur->prev;
+          cur-> prev->next=NULL;
+      }
+     else
+     {
+          ListNode * cur = find(index);
+          (cur->prev)-> next = cur-> next;
+          delete cur;
+          cur = NULL;
+     }
+ }
