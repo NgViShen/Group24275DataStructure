@@ -1,0 +1,142 @@
+beta
+
+trimester 1
+
+EEM1016 Engineering Mathematics I 		3CH
+EEN1016 Electronics 				3CH
+ECT1026 Field Theory				3CH
+ECT1016 Circuit Theory				3CH
+ECP1036 Computer Programming			3CH
+
+
+trimester 2
+
+EEN1036 Digital Logic Design			3CH
+EEN1026 Electronics I				3CH
+EPM1076 Introduction to Machines & Power	3CH
+Systems
+EEM1026 Engineering Mathematics II		3CH
+
+
+trimester 3
+
+EEN1046 Electronics III				3CH
+EPM1016 Instrumentation &			3CH
+Measurement Techniques
+
+GAMMA
+
+
+trimester 1
+
+-ECP2216 Microcontroller &			3CH
+ Microprocessor Systems
+-ECT2036 Circuits & Signals 			3CH
+-EMG2016 Electromagnetic Theory			3CH
+-EEM2036 Engineering Mathematics III 		3CH
+-(U1) MPU3123 Tamadun Islam & Tamadun Asia (for	3CH
+ Local) OR MPU3143 Bahasa Komunikasi 2
+ (for International)
+
+
+
+trimester 2
+
+EMG2016 Electromagnetic Theory			3CH
+ERT2016 Engineering Mechanics			3CH 
+ECP2046 Computer Organization &			3CH
+Architecture
+PWC1010 Workplace Communications		3CH
+
+
+trimester 3
+
+
+EPM2036 Control Theory				3CH
+EHM3066 Engineer & Society 			3CH
+
+
+
+delta
+
+
+TRIMESTER 1
+
+ERT3046 Machine Vision				3CH
+ERT3026 Automation 				3CH
+ECP3086 Multimedia Technology & Applications	3CH
+EME2056 Theory of Machines (Elective 1)		3CH
+EMG4076 Electromagnetic Interference 		3CH
+(Elective 1)
+EEN3096 Communications Electronics (Elective 1)	3CH
+EEN4206 Semiconductor Packaging & Test		3CH
+(Elective 1)
+BHM3086 Law For Engineers			3CH
+
+
+TRIMESTER 2
+
+EHM3096 Project Management for Engineers	3CH
+ERT3016 Robotics 				3CH
+EPT3016 Design Project				3CH
+ERT3056 Introduction to CIM (Elective 1)
+ECP2056 Data Communications & Computer 		3CH
+Networking(Elective 1)
+ETM4096 Digital Signal Processing		3CH
+(Elective 1
+ECP3126 Knowledgebased Systems			3CH
+(Elective 1
+(U1) MPU3113 Hubungan Etnik (for Local) 	3CH
+OR MPU3173 Pengajian Malaysia 3
+(for International)
+
+
+TRIMESTER 3
+
+EPT4066 Industrial Training			5CH
+
+
+EPSILON
+
+
+TRIMESTER 1
+
+EPT4046 Project (Part 1)			4CH
+ECP4136 Java Technology (Elective 2)		3CH
+EME4196 Quality Engineering (Elective 2)	3CH
+ECP4206 Object Oriented Programming with	3CH
+C++(Elective 2)
+
+
+TRIMESTER 2
+
+EPT4046 Project (Part2)				4CH
+ERT3036 Advanced Robotics			3CH
+ECP4166 Advanced Microprocessors		3CH
+(Elective 2
+ECP4196 Embedded System Design			3CH
+(Elective 2)
+EPM4086 Digital Control Systems			3CH
+(Elective 2)
+ECP4256 Practical				3CH
+FPGA Design and Interfacing (Elective 2)	3CH
+(U3) MPU3343 Business and Entrepreneurship in
+Malaysia
+
+
+
+TRIMESTER 3
+
+
+(U3) MPU3343 Business and Entrepreneurship in	3CH
+Malaysia
+(U4) MPU3XXX CoCurriculum			2CH
+
+
+
+
+
+
+
+
+

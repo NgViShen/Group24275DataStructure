@@ -1,0 +1,169 @@
+BETA
+
+trimester 1
+
+EEM1016 Engineering Mathematics I 		3CH
+EEN1016 Electronics 				3CH
+ECT1026 Field Theory				3CH
+ECT1016 Circuit Theory				3CH
+ECP1036 Computer Programming			3CH
+
+
+trimester 2
+
+EEN1036 Digital Logic Design			3CH
+EEN1026 Electronics I				3CH
+EPM1076 Introduction to Machines & Power	3CH
+Systems
+EEM1026 Engineering Mathematics II		3CH
+
+
+trimester 3
+
+EEN1046 Electronics III				3CH
+EPM1016 Instrumentation &			3CH
+Measurement Techniques
+
+
+GAMMA
+
+
+trimester 1
+
+ECP2216 Microcontroller &			3CH
+Microprocessor Systems
+ECT2036 Circuits & Signals 			3CH
+EBI1016 Anatomy & Physiolog			3CH
+EEM2036 Engineering Mathematics III 		3CH
+(U1) MPU3123 Tamadun Islam & Tamadun Asia (for	3CH
+Local) OR MPU3143 Bahasa Komunikasi 2
+(for International)
+
+
+
+trimester 2
+
+ECP3126 Knowledgebased Systems			3CH
+EBT3036 Medical Imaging				3CH 
+ECP2056 Data Communications &			3CH
+Computer Networking
+ECP2046 Computer Organization &			3CH
+Architecture
+EBI2036 Biomechanics 				3CH
+PWC1010 Workplace Communications		3CH
+
+
+
+
+trimester 3
+
+
+EPM2036 Control Theory				3CH
+EHM3066 Engineer & Society 			3CH
+
+
+DELTA
+
+trimester  1
+
+
+EMG2016 Electromagnetics Theory			3CH
+ECP3136 Digital Image Processing		3CH
+EBI4016 Bioelectric				3CH
+ECP3086 Multimedia Technology & Applications	3CH
+BHM3086 Law For Engineers			3CH
+
+
+
+trimester 2
+
+
+EPT3016 Design Project				4CH
+Digital Signal Processing			3CH
+Biosensors 					3CH
+
+
+trimester 3
+
+
+EPT4066 Industrial Training			5CH
+
+
+
+
+epsilon
+
+trimester 1
+
+
+EPT4046 Project (Part1) 			4CH
+EME4196 Quality Engineering (Elective 1)	3CH
+EBT3016 Telemedicine Technology (Elective 1)	3CH
+EEN4206 Semiconductor Packaging & Test 		3CH
+(Elective 1)
+
+
+trimester 2
+
+EPT4046 Project (Part 1) 			4CH
+EBT4016 Computed Tomography (Elective 2)	3CH
+EBT3046 Laser Technology (Elective 2)		3CH
+ECP4166 Advanced Microprocessors (Elective 2)	3CH
+EME3186 Ergonomics & Human Factor		3CH
+(Elective 2)
+ECP4256 Practical FPGA Design & Interfacing 	3CH
+(Elective 2)
+EBT4066 Medical Signal & Image Processing 	3CH
+(Elective 2)
+EHM3096 Project Management for  Engineers	3CH
+(Elective 2)
+
+
+trimester 3
+
+
+EBT3026 Biometrics				3CH
+(Elective 3)
+EBT4076 Medical Systems & Devices		3CH
+(Elective 3)
+EBI4046 Clinical Engineering 			3CH
+(Elective 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
